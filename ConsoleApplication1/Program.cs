@@ -17,6 +17,13 @@ namespace ConsoleApplication1
             Console.WriteLine("Hello world !");
             Console.WriteLine("Hello world !");
 
+            List<String> CountryList = new List<string>() { "India","Pakistan","Bangladesh","Nepal","China"};
+
+            foreach (string str in CountryList) {
+
+                Console.WriteLine("*"+str);
+            }
+
         }
     }
 }
